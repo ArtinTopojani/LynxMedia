@@ -38,13 +38,13 @@ const Contact = () => {
                     info@lynxcut.com
                   </a>
                 </div>
-                <div className='contact__item mb-20'>
+                {/* <div className='contact__item mb-20'>
                   <span className='he1'>Phone</span>
                   <a href='#0'>+(2) 871 382 023</a>
-                </div>
+                </div> */}
                 <div className='contact__item'>
                   <span className='he1'>Address</span>
-                  <span className='address'>Victoria Street London</span>
+                  St.Skenderbeu 19, Kacanik, Republic Of Kosovo, 71000
                 </div>
               </div>
             </div>
