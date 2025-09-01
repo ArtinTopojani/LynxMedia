@@ -1,0 +1,111 @@
+.process__item {
+  overflow: hidden;
+  transition: all 0.4s;
+  border: 1px solid var(--cusborder);
+  border-radius: 10px;
+  padding: 30px 30px;
+  position: relative;
+
+  ul {
+    li {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #999999;
+      font-size: 18px;
+      padding-left: 20px;
+      &::before {
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--base);
+        content: '';
+        left: 0;
+      }
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+  &::before {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    content: '';
+    background: #121212;
+    border-radius: 100px 20px 0 0;
+    transition: all 0.4s;
+  }
+  &:hover {
+    border-color: var(--hover);
+    &::before {
+      background: var(--base);
+    }
+  }
+  @include breakpoint(max-xxxl) {
+    padding: 20px 18px;
+    ul {
+      li {
+        gap: 10px;
+        font-size: 14px;
+        padding-left: 20px;
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
+.process__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%; // Make the card stretch fully
+  padding: 24px;
+  background: #1a1a1a; // Or whatever your background is
+  border-radius: 12px;
+
+  // Optional: enforce a minimum height so they match visually
+  min-height: 320px;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: auto; // Keep paragraph directly below title
+  }
+
+  ul {
+    margin-top: 16px; // Optional: spacing if list is used
+  }
+}
+
+.custom-hero-heading {
+  margin-top: 4rem; /* Similar to mt-16 */
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff; /* Adjust based on your background */
+  line-height: 1.2;
+  font-size: 2rem; /* Base font size for small screens */
+
+  /* Responsive sizes */
+  @media (min-width: 640px) {
+    font-size: 2.5rem; /* sm */
+  }
+
+  @media (min-width: 768px) {
+    font-size: 3rem; /* md */
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3.5rem; /* lg */
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 4rem; /* xl */
+  }
+}
