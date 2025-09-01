@@ -40,10 +40,7 @@ const WorkeProcess = () => {
   return (
     <section id='process' className='process__section pt-120 pb-120'>
       <div className='container'>
-        <Title
-          mainTitle='BUT WHY PARNTER WITH US?'
-          sortTitle='Working Process'
-        />
+        <Title mainTitle='BUT WHY PARNTER WITH US?' sortTitle='Why Us?' />
         <div className='row g-4 process__cards-wrapper'>
           {processList.map(({ id, info, list, title }) => (
             <WorkProcessCard key={id} info={info} list={list} title={title} />
@@ -54,9 +51,9 @@ const WorkeProcess = () => {
           data-aos='fade-up'
           data-aos-duration='800'
         >
-          So you do what you do best
+          SO YOU DO WHAT YOU DO BEST
           <br />
-          We will handle the rest
+          WE WILL HANDLE THE REST
         </h1>
       </div>
     </section>

@@ -3,16 +3,16 @@ import { ArrowUpShort, ArrowRight } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 const socalList = [
-  {
-    id: 1,
-    platfrom: 'Facebook',
-    icon: <ArrowRight />,
-  },
-  {
-    id: 2,
-    platfrom: 'Linkedin',
-    icon: <ArrowRight />,
-  },
+  // {
+  //   id: 1,
+  //   platfrom: 'Facebook',
+  //   icon: <ArrowRight />,
+  // },
+  // {
+  //   id: 2,
+  //   platfrom: 'Linkedin',
+  //   icon: <ArrowRight />,
+  // },
   // {
   //   id: 3,
   //   platfrom: 'Dribble',
