@@ -1,5 +1,5 @@
 import React from 'react';
-import './CenteredTextSection.scss';
+import './centeredtextsection.scss';
 
 const CenteredTextSection = () => {
   return (
