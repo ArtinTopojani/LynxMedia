@@ -41,7 +41,7 @@ const Footer = () => {
                   based in London.
                 </p> */}
                 <a href='#0' className='email-link'>
-                  info@lynxmedia.com
+                  info@lynxcut.com
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Footer = () => {
             <p className='white'>
               Copyright © {currentYear}{' '}
               <Link to={'/'} className='base'>
-                LynxMedia
+                LynxCut
               </Link>{' '}
               All rights reserved.
             </p>

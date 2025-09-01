@@ -32,10 +32,10 @@ const Contact = () => {
                 <div className='contact__item mb-20'>
                   <span className='he1'>Email</span>
                   <a
-                    href='mailto:info@thelynxmedia.com'
+                    href='mailto:info@lynxcut.com'
                     style={{ textTransform: 'lowercase' }}
                   >
-                    info@thelynxmedia.com
+                    info@lynxcut.com
                   </a>
                 </div>
                 <div className='contact__item mb-20'>
